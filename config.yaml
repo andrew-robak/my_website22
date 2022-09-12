@@ -1,31 +1,30 @@
 baseURL: https://andrew-robak-portfolio.netflify.app/
 languageCode: en-us
-title: Portfolio website for Andrew Robak
+title: Andrew
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
   banner:
     buttonText: Get Started
-    #subtitle: |-
-      #A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      #AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Andrew Robak, I am an MAM2023 studuent at LBS interested in analytics and consulting. 
+    subtitle: |-
+      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
+      AND RELEASED UNDER THE CREATIVE COMMONS.
+    title: Hi, my name is Andrew
   blog: {}
   contact:
     address:
       - city: London
-        country: United Kingdom
-        street: Penywern Road
+        country: UK
+        street: Regent's Park
         title: Address
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: arobak.mam2023@london.edu
-        title: Email
+      - email: kostis@london.edu
     enable: yes
     phone:
-      - phone: available upon request
+      - phone: (000) 000-0000 x1234
         title: Phone
   custom_css: []
   custom_js: []
@@ -35,28 +34,28 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: Andrew Robak
+    copyright: Kostis
     enable: yes
     quicklinks:
-     # - alt: HTML5 UP
-        #text: 'Design: '
-        #url: https://www.html5up.net
+      - alt: HTML5 UP
+        text: 'Design: '
+        url: https://www.html5up.net
     social:
-     # - icon: fa-twitter
-     #   label: Twitter
-     #   url: https://www.twitter.com
-     # - icon: fa-facebook
-     #   label: Facebook
-     #   url: https://www.facebook.com
-     # - icon: fa-instagram
-     #   label: Instagram
-     #   url: https://www.instagram.com
+      - icon: fa-twitter
+        label: Twitter
+        url: https://www.twitter.com/kostisc
+#      - icon: fa-facebook
+#        label: Facebook
+#        url: https://www.facebook.com
+      - icon: fa-instagram
+        label: Instagram
+        url: https://www.instagram.com/kostisc
       - icon: fa-github
         label: GitHub
-        url: https://www.github.com/andrew-robak
+        url: https://www.github.com/kostis-christodoulou
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com/in/jedrzej-robak/
+        url: https://www.linkedin.com/in/kostis-christodoulou-285147/
   image: ''
   name: Your name
   navigation:
@@ -69,22 +68,22 @@ params:
     links:
       - name: Home
         url: '#'
-      - name: Projects
+      - name: Blogs
         url: blogs
-    #  - name: Generic Blog
-    #   url: blogs/ipsum
-    #  - name: Elements
-    #    url: elements.html
+      - name: Generic Blog
+        url: blogs/ipsum
+      - name: Elements
+        url: elements.html
     menu: Menu
     subtitle: By HTML5 Up
     title: Forty
   tiles:
     enable: yes
     showcase:
-      - image: lbs.jpeg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
-        url: blogs/risk_return
+      - image: backround_sunset.jpg
+        subtitle: I love sunsets
+        title: About me
+        url: blogs/aliquam
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus
@@ -109,10 +108,10 @@ params:
     buttonText: Get Started
     enable: yes
     subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-      \n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \n    Pellentesque
+      \r\n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \r\n    Pellentesque
       condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
-      pellentesque lorem ipsum dolor. \n    Nullam et orci eu lorem consequat tincidunt.
-      Vivamus et sagittis libero.\n    Mauris aliquet magna magna sed nunc rhoncus
+      pellentesque lorem ipsum dolor. \r\n    Nullam et orci eu lorem consequat tincidunt.
+      Vivamus et sagittis libero.\r\n    Mauris aliquet magna magna sed nunc rhoncus
       amet pharetra et feugiat tempus."
     title: Massa libero
     url: blogs
